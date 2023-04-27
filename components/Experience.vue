@@ -18,6 +18,9 @@
             <p>
                 {{ experience.description }}
             </p>
+            <p v-if="experience.stack">
+                Tech Stack: <strong>{{ experience.stack }}</strong>
+            </p>
         </div>
         <hr v-if="showDivider" />
     </div>

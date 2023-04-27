@@ -31,16 +31,17 @@ export default {
     data() {
         return {
             experiences: [
-                {
-                    logo: null,
-                    title: "Owner & CTO",
-                    company: "NeoMart Convenience Store",
-                    from: "2017-11",
-                    to: "present",
-                    description:
-                        "Responsible for managing technological requirements, enhancements, digital tools and inventory software.",
-                    address: "Cebu, Philippines",
-                },
+                // {
+                //     logo: null,
+                //     title: "Owner & CTO",
+                //     company: "NeoMart Convenience Store",
+                //     from: "2017-11",
+                //     to: "present",
+                //     description:
+                //         "Responsible for managing technological requirements, enhancements, digital tools and inventory software.",
+                //     address: "Cebu, Philippines",
+                //     stack: "Laravel, VueJS, NuxtJS, AdonisJS, MySQL, Postgres",
+                // },
                 {
                     logo: null,
                     title: "Senior Software Engineer",
@@ -50,6 +51,7 @@ export default {
                     description:
                         "Full stack web developer and at the same time take lead in development process, checking people's work if they meet company policy and standards, manage Git branches for staging server and lastly, reassign tasks that had failed testing.",
                     address: "Sydney, Australia",
+                    stack: "Laravel, VueJS, NextJS, MySQL",
                 },
                 {
                     logo: null,
@@ -60,6 +62,7 @@ export default {
                     description:
                         "Accepted various freelance side projects not only to earn extra, but also to broaden knowledge on different development technologies, methodologies and patterns which benefit both the companies that I worked with and me.",
                     address: "Online",
+                    stack: "Wordpress, CodeIgniter, Laravel, VueJS, NodeJS",
                 },
                 {
                     logo: null,
@@ -70,6 +73,7 @@ export default {
                     description:
                         "Design templates for site app users and develop frontend elements needed for specific client templates. Also act as webmaster to make sure everything is inline with SEO standards.",
                     address: "San Diego, California",
+                    stack: "Wordpress, CodeIgniter, NodeJS, React, VueJS",
                 },
                 {
                     logo: null,
@@ -80,6 +84,7 @@ export default {
                     description:
                         "Lead PHP developer and in charge on maintainance and enhancement of Stockchase site features and took part on Wealthica app base code.",
                     address: "Montreal, Canada",
+                    stack: "CodeIgniter, VueJS, NodeJS",
                 },
                 {
                     logo: null,
@@ -90,6 +95,7 @@ export default {
                     description:
                         "Built Wordpress themes for Whitetower clients as part-time job.",
                     address: "Sydney, Australia",
+                    stack: "Wordpress, jQuery",
                 },
                 {
                     logo: null,
@@ -100,6 +106,7 @@ export default {
                     description:
                         "Lead web designer and developer. Built Wordpress plugins and developed themes for IYP clients. Also took charge of maintaining client websites and improve SEO rankings by optimizing sites to full SEO standards including implementation of OpenGrab metas.",
                     address: "San Diego, California",
+                    stack: "Wordpress, jQuery",
                 },
                 {
                     logo: null,
@@ -110,6 +117,7 @@ export default {
                     description:
                         "Built Wordpress plugin extensions for an event manager plugin.",
                     address: "Spain",
+                    stack: "Wordpress, jQuery",
                 },
                 {
                     logo: null,
