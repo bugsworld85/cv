@@ -23,4 +23,14 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.banner-content {
+    display: flex;
+    align-items: center;
+
+    .banner-info {
+        position: relative;
+        margin-top: unset;
+        top: unset;
+    }
+}
 </style>

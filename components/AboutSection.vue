@@ -10,23 +10,21 @@
                 <div class="col-md-8">
                     <div class="about-info">
                         <p>
-                            I have more than 7 years experience in web
-                            development. I started out as a web designer, then I
-                            found interest in web development since I am good
-                            with problem solving, has great analytical skills
-                            and has experienced programming during my college
-                            days. During my early web development days, I
-                            started out with Wordpress, proceeded to
-                            CodeIgniter, then had various projects and clients
-                            with Laravel / Vue and NodeJS / React platforms.
+                            I am a seasoned web developer with nearly 8 years of experience creating high-quality websites
+                            and web applications. I am known for my dedication to delivering excellent results, and I always
+                            prioritize clear communication and open dialogue with clients.
                         </p>
                         <p>
-                            I am very proficient with programming languages such
-                            as PHP, CSS, HTML, and Javascript, and I always
-                            prefer future proof solutions. I am also well
-                            experienced with Google API Libraries, Stripe API,
-                            Spark Platform API and other API services available
-                            as well as building RESTful APIs from scratch.
+                            With a focus on both system architecture and development, I am well-versed in a range of
+                            approaches, from Monolith to Microservices, and I work closely with clients to determine the
+                            best fit for their specific needs. My expertise lies in Laravel, NuxtJS, NextJS, and Javascript,
+                            and I am always eager to take on new challenges and expand my skillset.
+                        </p>
+                        <p>
+                            Over the years, I have completed numerous SaaS-based projects, building a reputation for my
+                            ability to deliver efficient, effective solutions that meet client requirements and exceed
+                            expectations. If you're looking for a skilled, reliable developer to help you bring your vision
+                            to life, I am here to help.
                         </p>
                         <div class="signature">
                             <h1>{{ $parent.alias }}</h1>
@@ -55,5 +53,4 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped>
-</style>
+<style lang="scss" scoped></style>

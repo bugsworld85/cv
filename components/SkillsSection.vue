@@ -11,39 +11,37 @@
                     <div class="section-content">
                         <div class="text-info">
                             <p>
-                                I am a very resourceful person, dedicated and
-                                efficient full stack web developer. Successfully
-                                transitioned between various stack technologies
-                                such as LAMP and MERN. And now seeking to
-                                further improve my software architectural skills
-                                and advance on Server-Side Rendering.
+                                As a dedicated and efficient full-stack web developer, I am highly skilled in a range of
+                                technologies, including LAMP and MERN stacks. With a proven track record of success in
+                                managing complex projects, I am known for my resourcefulness and ability to quickly adapt to
+                                new challenges.
+                            </p>
+                            <p>
+                                I am committed to staying up-to-date with the latest developments in software architecture,
+                                and I am eager to continue building my skills in server-side rendering. With a strong
+                                foundation in both front-end and back-end development, I have a deep understanding of the
+                                complete web development process and can provide end-to-end solutions for clients.
+                            </p>
+                            <p>
+                                If you are looking for a results-driven developer with a passion for excellence and a proven
+                                ability to deliver high-quality work on time and within budget, I would love to discuss how
+                                I can help bring your vision to life.
                             </p>
                         </div>
-                        <div
-                            class="progress-content"
-                            v-for="category in categories"
-                            :key="`skill-category-${category.title}`"
-                        >
+                        <div class="progress-content" v-for="category in categories"
+                            :key="`skill-category-${category.title}`">
                             <h4>{{ category.title }}</h4>
                             <div class="rating-bar bar-left">
-                                <Skill
-                                    v-for="skill in divideIntoColumns(
+                                <Skill v-for="skill in divideIntoColumns(
                                         category.skills
-                                    )"
-                                    :key="`skill-${skill.title}`"
-                                    :skill="skill"
-                                />
+                                    )" :key="`skill-${skill.title}`" :skill="skill" />
                             </div>
                             <div class="skill rating-bar bar-right">
-                                <Skill
-                                    v-for="skill in divideIntoColumns(
+                                <Skill v-for="skill in divideIntoColumns(
                                         category.skills,
                                         true,
                                         category.title
-                                    )"
-                                    :key="`skill-${skill.title}`"
-                                    :skill="skill"
-                                />
+                                    )" :key="`skill-${skill.title}`" :skill="skill" />
                             </div>
                         </div>
                     </div>
@@ -110,7 +108,7 @@ export default {
                         {
                             title: "VueJS",
                             logo: "/images/vuejs.png",
-                            percent: 85,
+                            percent: 90,
                         },
                         {
                             title: "ReactJS",
@@ -125,7 +123,12 @@ export default {
                         {
                             title: "NuxtJS",
                             logo: "/images/nuxtjs.png",
-                            percent: 75,
+                            percent: 90,
+                        },
+                        {
+                            title: "Nuxt 3",
+                            logo: "/images/nuxt3.png",
+                            percent: 90,
                         },
                         {
                             title: "Wordpress",
@@ -155,7 +158,7 @@ export default {
                         {
                             title: "Redis",
                             logo: "/images/redis.png",
-                            percent: 30,
+                            percent: 70,
                         },
                     ],
                 },
@@ -224,5 +227,4 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped>
-</style>
+<style lang="scss" scoped></style>

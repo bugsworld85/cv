@@ -8,12 +8,8 @@
                     </div>
                 </div>
                 <div class="col-md-8">
-                    <Experience
-                        v-for="(experience, i) in experiences"
-                        :key="`exp-${experience.company}`"
-                        :experience="experience"
-                        :showDivider="!isLast(i)"
-                    />
+                    <Experience v-for="(experience, i) in experiences" :key="`exp-${experience.company}`"
+                        :experience="experience" :showDivider="!isLast(i)" />
                 </div>
             </div>
         </div>
@@ -31,17 +27,28 @@ export default {
     data() {
         return {
             experiences: [
-                // {
-                //     logo: null,
-                //     title: "Owner & CTO",
-                //     company: "NeoMart Convenience Store",
-                //     from: "2017-11",
-                //     to: "present",
-                //     description:
-                //         "Responsible for managing technological requirements, enhancements, digital tools and inventory software.",
-                //     address: "Cebu, Philippines",
-                //     stack: "Laravel, VueJS, NuxtJS, AdonisJS, MySQL, Postgres",
-                // },
+                {
+                    logo: null,
+                    title: "Senior Software Engineer & Lead Web3 Development Team",
+                    company: "Xctuality",
+                    from: "2022-02",
+                    to: "2023-04",
+                    description:
+                        "As the Senior Software Engineer and Lead of the Web3 Development Team at Xctuality, I oversaw the development and implementation of our NFT marketplace, which served as a platform for buying, selling, and trading digital assets. In addition to my work on the marketplace, I was also responsible for managing the web server for Xctuality's game product \"Xctualyfe\", ensuring that it was running smoothly and efficiently. Through my technical expertise and leadership, I played a critical role in driving the success of both the NFT marketplace and the game APIs, gaining valuable experience in web3 development and web server management. It was a fulfilling and exciting opportunity to work on such innovative projects at Xctuality.",
+                    address: "Singapore",
+                    stack: "Laravel, Nuxt 3, Redis, MySQL, Web3",
+                },
+                {
+                    logo: null,
+                    title: "Owner & CTO",
+                    company: "NeoMart Convenience Store",
+                    from: "2017-11",
+                    to: "2023-02",
+                    description:
+                        "As the owner and CTO of NeoMart convenience store, I held the responsibility of managing the store's technological requirements, enhancing digital tools and overseeing inventory software. By utilizing my expertise in technology and inventory management, I implemented various technological upgrades to streamline the store's operations and improve the customer experience. Additionally, I led the development and deployment of digital tools to enhance the store's online presence and attract more customers.My contributions as the owner and CTO played a critical role in improving NeoMart's overall efficiency and customer satisfaction, which was a rewarding experience for me.",
+                    address: "Cebu, Philippines",
+                    stack: "Laravel, NuxtJS, MySQL",
+                },
                 {
                     logo: null,
                     title: "Senior Software Engineer",
@@ -49,7 +56,7 @@ export default {
                     from: "2019-12",
                     to: "2021-11",
                     description:
-                        "Full stack web developer and at the same time take lead in development process, checking people's work if they meet company policy and standards, manage Git branches for staging server and lastly, reassign tasks that had failed testing.",
+                        "During my time as a senior software engineer at this company, I had the opportunity to contribute to the development process in a significant way. As a full-stack web developer, I led the development process and ensured that our products met high-quality standards. In addition to coding, I also checked my colleagues' work against the company's policies and standards and managed Git branches for the staging server. Whenever a task failed testing, I would quickly reassign it to ensure that any issues were resolved as soon as possible. I am proud of my contributions to the company's success and hope that other developers can learn from my experience.",
                     address: "Sydney, Australia",
                     stack: "Laravel, VueJS, NextJS, MySQL",
                 },
@@ -60,7 +67,7 @@ export default {
                     from: "2015-11",
                     to: "2019-12",
                     description:
-                        "Accepted various freelance side projects not only to earn extra, but also to broaden knowledge on different development technologies, methodologies and patterns which benefit both the companies that I worked with and me.",
+                        "Accepting various freelance side projects allowed me to earn extra income while also broadening my knowledge on different development technologies, methodologies, and patterns. These experiences not only benefited me but also the companies I worked with, as I was able to bring a diverse range of skills and perspectives to each project. As a result, I was able to provide high-quality work and build strong relationships with my clients, ultimately leading to more opportunities in the future.",
                     address: "Online",
                     stack: "Wordpress, CodeIgniter, Laravel, VueJS, NodeJS",
                 },
@@ -71,7 +78,7 @@ export default {
                     from: "2016-01",
                     to: "2019-07",
                     description:
-                        "Design templates for site app users and develop frontend elements needed for specific client templates. Also act as webmaster to make sure everything is inline with SEO standards.",
+                        "In my role as a web designer and developer, I was responsible for designing templates for site app users and developing frontend elements needed for specific client templates. This included creating visually appealing designs that were optimized for user experience and ensuring that all elements were functioning correctly. Additionally, I acted as a webmaster and ensured that everything was in line with SEO standards, making sure that the website was easily discoverable by search engines and ranking well in search results. By doing so, I was able to create a seamless user experience and improve the website's visibility, ultimately driving more traffic and engagement.",
                     address: "San Diego, California",
                     stack: "Wordpress, CodeIgniter, NodeJS, React, VueJS",
                 },
@@ -82,7 +89,7 @@ export default {
                     from: "2017-10",
                     to: "2018-12",
                     description:
-                        "Lead PHP developer and in charge on maintainance and enhancement of Stockchase site features and took part on Wealthica app base code.",
+                        "As the lead PHP developer for the Stockchase site, I was responsible for maintaining and enhancing its features, ensuring that the site was running smoothly and providing the best possible user experience. In addition, I also took part in the development of the base code for the Wealthica app, contributing to its functionality and helping to improve its overall performance. By leveraging my expertise in PHP development, I was able to make significant contributions to both projects, ultimately helping to drive their success and improve the experience for users.",
                     address: "Montreal, Canada",
                     stack: "CodeIgniter, VueJS, NodeJS",
                 },
@@ -93,7 +100,7 @@ export default {
                     from: "2016-08",
                     to: "2017-02",
                     description:
-                        "Built Wordpress themes for Whitetower clients as part-time job.",
+                        "As a part-time Wordpress theme developer for Whitetower, my primary responsibility was to create and customize Wordpress themes for clients. I utilized my expertise in theme development to build visually appealing and highly functional themes that met the unique needs of each client. Through my work, I helped to ensure that Whitetower's clients had access to high-quality themes that were tailored to their specific requirements. My contributions ultimately helped to drive the success of Whitetower and its clients, making it a valuable and rewarding experience for me as a developer.",
                     address: "Sydney, Australia",
                     stack: "Wordpress, jQuery",
                 },
@@ -104,7 +111,7 @@ export default {
                     from: "2014-12",
                     to: "2016-12",
                     description:
-                        "Lead web designer and developer. Built Wordpress plugins and developed themes for IYP clients. Also took charge of maintaining client websites and improve SEO rankings by optimizing sites to full SEO standards including implementation of OpenGrab metas.",
+                        "As a lead web designer and developer for IYP, I was responsible for building custom Wordpress plugins and themes that met the specific needs of our clients. In addition to development work, I also acted as the webmaster for our clients, ensuring that their websites were running smoothly and optimizing them to meet full SEO standards, including the implementation of OpenGraph metas. By leveraging my expertise in Wordpress development and SEO optimization, I was able to improve the performance and visibility of our clients' websites, ultimately driving more traffic and engagement. My contributions helped to ensure the success of IYP and its clients, making it a fulfilling and rewarding experience for me as a developer.",
                     address: "San Diego, California",
                     stack: "Wordpress, jQuery",
                 },
@@ -115,7 +122,7 @@ export default {
                     from: "2014-07",
                     to: "2014-12",
                     description:
-                        "Built Wordpress plugin extensions for an event manager plugin.",
+                        "As a Wordpress plugin developer, my primary responsibility was to build custom plugin extensions for an Event Manager plugin. Leveraging my expertise in Wordpress development, I was able to create highly functional and user-friendly plugin extensions that seamlessly integrated with the Event Manager plugin, expanding its functionality and providing additional value to users. Through my work, I helped to ensure that the Event Manager plugin was able to meet the specific needs of its users and remain a valuable tool for event management. My contributions ultimately helped to drive the success of the plugin and made it a rewarding experience for me as a developer.",
                     address: "Spain",
                     stack: "Wordpress, jQuery",
                 },
@@ -126,7 +133,7 @@ export default {
                     from: "2012-09",
                     to: "2014-07",
                     description:
-                        "Online technical support for various Microsoft Windows and Office issues including virus removal.",
+                        "As a Microsoft Answer Desk Online Technician, I provided online technical support for a variety of Microsoft Windows and Office issues. This included troubleshooting and resolving technical issues related to software installation, configuration, and operation, as well as virus removal. By leveraging my expertise in Microsoft technologies, I was able to provide high-quality support to customers, helping them to resolve issues and get the most out of their software. My contributions ultimately helped to drive customer satisfaction and loyalty, making it a fulfilling and rewarding experience for me as a technician.",
                     address: "Cebu, Philippines",
                 },
                 {
@@ -136,7 +143,7 @@ export default {
                     from: "2011-06",
                     to: "2012-03",
                     description:
-                        "Lead Graphics Designer and Officer-In-Charge at Link department which handles marketing media and student ID processing.",
+                        "As a lead graphics designer and officer-in-charge at the Link department, I was responsible for managing marketing media and the student ID processing system. By leveraging my expertise in graphic design, I was able to create visually compelling marketing materials that effectively conveyed the department's message and improved engagement with our target audience. Additionally, I streamlined the student ID processing system, ensuring all student IDs were processed accurately and efficiently. Through my contributions, I was able to enhance the overall effectiveness of the Link department, resulting in a successful and fulfilling experience for me as a graphics designer and office in charge.",
                     address: "Cebu, Philippines",
                 },
             ],
@@ -150,5 +157,4 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped>
-</style>
+<style lang="scss" scoped></style>
