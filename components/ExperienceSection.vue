@@ -29,26 +29,26 @@ export default {
             experiences: [
                 {
                     logo: null,
-                    title: "Senior Software Engineer & Lead Web3 Development Team",
+                    title: "Senior Software Engineer",
                     company: "Xctuality",
                     from: "2022-02",
                     to: "2023-04",
                     description:
-                        "As the Senior Software Engineer and Lead of the Web3 Development Team at Xctuality, I oversaw the development and implementation of our NFT marketplace, which served as a platform for buying, selling, and trading digital assets. In addition to my work on the marketplace, I was also responsible for managing the web server for Xctuality's game product \"Xctualyfe\", ensuring that it was running smoothly and efficiently. Through my technical expertise and leadership, I played a critical role in driving the success of both the NFT marketplace and the game APIs, gaining valuable experience in web3 development and web server management. It was a fulfilling and exciting opportunity to work on such innovative projects at Xctuality.",
+                        "As the Senior Software Engineer at Xctuality, I oversaw the development and implementation of our NFT marketplace, which served as a platform for buying, selling, and trading digital assets. In addition to my work on the marketplace, I was also responsible for managing the web server for Xctuality's game product \"Xctualyfe\", ensuring that it was running smoothly and efficiently. Through my technical expertise and leadership, I played a critical role in driving the success of both the NFT marketplace and the game APIs, gaining valuable experience in web3 development and web server management. It was a fulfilling and exciting opportunity to work on such innovative projects at Xctuality.",
                     address: "Singapore",
                     stack: "Laravel, Nuxt 3, Redis, MySQL, Web3",
                 },
-                {
-                    logo: null,
-                    title: "Owner & CTO",
-                    company: "NeoMart Convenience Store",
-                    from: "2017-11",
-                    to: "2023-02",
-                    description:
-                        "As the owner and CTO of NeoMart convenience store, I held the responsibility of managing the store's technological requirements, enhancing digital tools and overseeing inventory software. By utilizing my expertise in technology and inventory management, I implemented various technological upgrades to streamline the store's operations and improve the customer experience. Additionally, I led the development and deployment of digital tools to enhance the store's online presence and attract more customers.My contributions as the owner and CTO played a critical role in improving NeoMart's overall efficiency and customer satisfaction, which was a rewarding experience for me.",
-                    address: "Cebu, Philippines",
-                    stack: "Laravel, NuxtJS, MySQL",
-                },
+                // {
+                //     logo: null,
+                //     title: "Owner & CTO",
+                //     company: "NeoMart Convenience Store",
+                //     from: "2017-11",
+                //     to: "2023-02",
+                //     description:
+                //         "As the owner and CTO of NeoMart convenience store, I held the responsibility of managing the store's technological requirements, enhancing digital tools and overseeing inventory software. By utilizing my expertise in technology and inventory management, I implemented various technological upgrades to streamline the store's operations and improve the customer experience. Additionally, I led the development and deployment of digital tools to enhance the store's online presence and attract more customers.My contributions as the owner and CTO played a critical role in improving NeoMart's overall efficiency and customer satisfaction, which was a rewarding experience for me.",
+                //     address: "Cebu, Philippines",
+                //     stack: "Laravel, NuxtJS, MySQL",
+                // },
                 {
                     logo: null,
                     title: "Senior Software Engineer",
