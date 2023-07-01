@@ -33,4 +33,22 @@ export default {
         top: unset;
     }
 }
+
+@media screen and (max-width: 512px) {
+    #home-banner {
+        height: auto;
+
+        >.container {
+            background-size: 190px;
+
+            .banner-content {
+                height: 300px;
+
+                .banner-info {
+                    transform: translate(0, 30%);
+                }
+            }
+        }
+    }
+}
 </style>

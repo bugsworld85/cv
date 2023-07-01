@@ -9,12 +9,8 @@
                 </div>
                 <div class="col-md-8">
                     <ul class="repositories">
-                        <li
-                            v-for="(repository, i) in repositories"
-                            :key="`repo-${i}`"
-                            class="mb-2"
-                        >
-                            <a :href="repository.link">{{ repository.link }}</a>
+                        <li v-for="(repository, i) in repositories" :key="`repo-${i}`" class="mb-2">
+                            <a :href="repository.link">{{ repository.title }}</a>
                         </li>
                     </ul>
                 </div>
@@ -30,19 +26,19 @@ export default {
         return {
             repositories: [
                 {
-                    title: "",
+                    title: "Laravel Comments",
                     link: "https://github.com/bugsworld85/project-comments",
                 },
                 {
-                    title: "",
+                    title: "NeoComponents (Vue2) Github",
                     link: "https://github.com/bugsworld85/neocomponents",
                 },
                 {
-                    title: "",
+                    title: "Wordpress Blank Canvas",
                     link: "https://github.com/bugsworld85/project-blank-canvas",
                 },
                 {
-                    title: "",
+                    title: "NeoComponents (Vue2) NPM",
                     link: "https://www.npmjs.com/package/@bugsworld85/neocomponents",
                 },
             ],
@@ -51,5 +47,4 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped>
-</style>
+<style lang="scss" scoped></style>

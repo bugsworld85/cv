@@ -11,13 +11,14 @@
                     <address>
                         <p><span>Full Name:</span> {{ $parent.fullName }}</p>
                         <p><span>Nick Name:</span> {{ $parent.nickname }}</p>
-                        <p><span>Email:</span> {{ $parent.email }}</p>
-                        <p><span>Phone:</span> {{ $parent.phone }}</p>
+                        <p><span>Email:</span> <a :href="`mailto:${$parent.email}`" target="_blank">{{ $parent.email }}</a>
+                        </p>
+                        <!-- <p><span>Phone:</span> {{ $parent.phone }}</p>
                         <p>
                             <span>Date of Birth:</span>
                             {{ $parent.dateOfBirth }}
                         </p>
-                        <p><span>Address:</span> {{ $parent.address }}</p>
+                        <p><span>Address:</span> {{ $parent.address }}</p> -->
                     </address>
                     <div class="signature">
                         <h1>{{ $parent.alias }}</h1>
@@ -34,5 +35,4 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped>
-</style>
+<style lang="scss" scoped></style>
