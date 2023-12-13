@@ -1,11 +1,7 @@
 <template>
     <div class="exprience">
         <div class="exprience-image" v-if="experience.logo">
-            <img
-                class="img-fluid"
-                :src="experience.logo"
-                :alt="experience.title"
-            />
+            <img class="img-fluid" :src="experience.logo" :alt="experience.title" />
         </div>
         <div class="exprience-info">
             <h3>{{ experience.title }}</h3>
@@ -15,7 +11,12 @@
                 <br />
                 <span>{{ from }} - {{ to }} ({{ age }})</span>
             </h5>
-            <p>
+            <ul v-if="experience.list && experience.list.length > 0" class="bullet mb-3">
+                <li v-for="listItem in experience.list" :key="`list-item-${listItem}`">
+                    {{ listItem }}
+                </li>
+            </ul>
+            <p v-else>
                 {{ experience.description }}
             </p>
             <p v-if="experience.stack">

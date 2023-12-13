@@ -10,7 +10,7 @@
                 <div class="col-md-8">
                     <div class="about-info">
                         <p>
-                            I am a seasoned web developer with nearly 8 years of experience creating high-quality websites
+                            I am a seasoned web developer with nearly {{ yearsInTheIndustry }} years of experience creating high-quality websites
                             and web applications. I am known for my dedication to delivering excellent results, and I always
                             prioritize clear communication and open dialogue with clients.
                         </p>
@@ -49,8 +49,14 @@
 </template>
 
 <script>
+import moment from 'moment';
 export default {
     name: "about",
+    data() {
+        return {
+            yearsInTheIndustry: moment().year() - 2014
+        }
+    },
 };
 </script>
 

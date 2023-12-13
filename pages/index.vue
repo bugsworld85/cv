@@ -2,8 +2,8 @@
     <div class="main-wrapper home-two">
         <HomeBanner />
         <AboutSection />
-        <SkillsSection />
         <ExperienceSection />
+        <SkillsSection />
         <EducationSection />
         <ProfileSection />
         <RepositoriesSection />

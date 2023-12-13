@@ -1,5 +1,5 @@
 <template>
-    <div id="skill" class="skill-section bg-color section-padding">
+    <div id="skill" class="skill-section section-padding">
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
@@ -113,12 +113,12 @@ export default {
                         {
                             title: "ReactJS",
                             logo: "/images/reactjs.png",
-                            percent: 70,
+                            percent: 90,
                         },
                         {
                             title: "NextJS",
                             logo: "/images/nextjs.png",
-                            percent: 70,
+                            percent: 90,
                         },
                         {
                             title: "NuxtJS",
