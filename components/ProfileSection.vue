@@ -33,7 +33,7 @@ export default {
                 {
                     title: "LinkedIn",
                     icon: "/images/linkedin.png",
-                    link: "https://www.linkedin.com/in/jovanniraygarcia/",
+                    link: "https://www.linkedin.com/in/bugsworld85",
                 },
                 {
                     title: "Upwork",

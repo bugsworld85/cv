@@ -17,7 +17,7 @@
                         <p>
                             With a focus on both system architecture and development, I am well-versed in a range of
                             approaches, from Monolith to Microservices, and I work closely with clients to determine the
-                            best fit for their specific needs. My expertise lies in Laravel, NuxtJS, NextJS, and Javascript,
+                            best fit for their specific needs. My expertise lies in Laravel, NuxtJS, NextJS, React Native and Javascript,
                             and I am always eager to take on new challenges and expand my skillset.
                         </p>
                         <p>

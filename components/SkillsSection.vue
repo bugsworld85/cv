@@ -115,6 +115,12 @@ export default {
                             logo: "/images/reactjs.png",
                             percent: 90,
                         },
+                        
+                        {
+                            title: "React Native",
+                            logo: "/images/reactjs.png",
+                            percent: 90,
+                        },
                         {
                             title: "NextJS",
                             logo: "/images/nextjs.png",
