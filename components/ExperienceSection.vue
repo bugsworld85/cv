@@ -1,5 +1,5 @@
 <template>
-    <div id="exprience" class="exprience-section bg-color section-padding">
+    <div id="experience" class="experience-section bg-color section-padding">
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
@@ -29,19 +29,42 @@ export default {
             experiences: [
                 {
                     logo: null,
+                    title: 'Senior Software Engineer',
+                    company: 'Storman',
+                    from: "2024-01",
+                    to: "present",
+                    address: 'Fortitude Valley, QLD',
+                    stack: "Laravel, VueJS, MySQL, Javascript, jQuery, Bootstrap",
+                    list: [
+                        'Designed and implemented a robust vehicle booking system, modernizing reservation and agreement services by migrating from a 4D server to MySQL.',
+                        'Established isolated transaction handling for vehicle bookings to improve data integrity.',
+                        'Championed the adoption of SOLID principles, enhancing code maintainability and scalability.',
+                        'Delivered key features, including checklist history and lookup group management.',
+                        'Successfully integrated existing contracts with vehicle bookings, ensuring seamless system interoperability.',
+                        'Enabled company-level inventory management to enhance operational efficiency.',
+                        'Designed and implemented a POS system supporting both regular and bundled items.',
+                        'Contributed to the implementation of features such as POS, audit logs, and console commands.',
+                    ],
+                },
+                {
+                    logo: null,
                     title: '[Part-time] Senior Software Engineer',
                     company: 'Drivers1st / Right Turn Recruiting, Inc.',
                     from: "2023-06",
                     to: "present",
                     address: 'Minnesota, US',
-                    stack: "Laravel, NextJS, Redis, MySQL, MongoDB, Typescript, Wordpress, Docker",
+                    stack: "Laravel, NextJS, Redis, MySQL, MongoDB, Typescript, Wordpress, Docker, React Native, Expo, FastAPI, Redux, Laravel Inertia, VueJS",
                     list: [
-                        'Migrated legacy app to Laravel and NextJS',
-                        'Developed and maintained the Drivers1st portal for various carriers.',
-                        'Developed and maintained Driver1st Wordpress website.',
-                        'Developed and maintained the Drivers1st portal for drivers applying for the jobs posted by variou carriers within the system.',
-                        'Attempted to implement CI/CD.',
-                        'Managed Github repositories and integration.',
+                        'Implemented SSO in preparation for the mobile application’s authentication system.',
+                        'Developed and maintained the Drivers1st mobile application.',
+                        'Led a small development team consisting of two developers, a designer, and a QA engineer.',
+                        'Designed and architected the database structure to optimize query performance across RESTful API endpoints.',
+                        'Migrated a legacy WordPress application to Laravel and Next.js, contributing to company growth and the upcoming launch of Drivers1st’s first mobile application on iOS and Android.',
+                        'Developed and maintained the Drivers1st portal for carriers.',
+                        'Developed and maintained the Drivers1st WordPress website.',
+                        'Built and maintained the Drivers1st driver portal for job applications across multiple carriers.',
+                        'Implemented CI/CD pipelines.',
+                        'Managed GitHub repositories and integrations.',
                     ],
                 },
                 {
@@ -55,26 +78,15 @@ export default {
                     address: "Singapore",
                     stack: "Laravel, Nuxt 3, Vuex, Redis, MySQL, Web3, Typescript, Docker",
                     list: [
-                        'Acted as the Product Owner who oversaw the development and implementation of the XMarketplace (Xctualyfe Marketplace) which serves as the platform to handle buying, selling and trading of digital assets.',
-                        'Built integration between the blockchain and the game\'s backend server so whatever user\'s bought from the XMarketplace, will exist in the game.',
-                        'Built the chat system server backbone in order to communicate within the game\'s chat feature. Used custom Laravel websocket authentication inorder for it to work with Unreal Engine.',
-                        'Built a page builder for one client of Xctuality.',
-                        'Maintained AWS services such as autoscaling and autoload-balancing of EC2 and RDS instances.',
+                        'Acted as Product Owner, overseeing the development and implementation of the XMarketplace (Xctualyfe Marketplace) for buying, selling, and trading digital assets.',
+                        'Built blockchain integration with the game backend, ensuring purchased assets were reflected in-game.',
+                        'Developed the chat system backend for in-game communication, including custom Laravel WebSocket authentication for Unreal Engine integration.',
+                        'Built a page builder for a client of Xctuality.',
+                        'Maintained AWS services, including auto-scaling and load balancing for EC2 and RDS.',
                         'Managed and maintained Xctuality repositories.',
-                        'Performed code reviews and quality control to ensure code submitted meets company set standards.'
+                        'Performed code reviews and enforced quality standards.',
                     ]
                 },
-                // {
-                //     logo: null,
-                //     title: "Owner & CTO",
-                //     company: "NeoMart Convenience Store",
-                //     from: "2017-11",
-                //     to: "2023-02",
-                //     description:
-                //         "As the owner and CTO of NeoMart convenience store, I held the responsibility of managing the store's technological requirements, enhancing digital tools and overseeing inventory software. By utilizing my expertise in technology and inventory management, I implemented various technological upgrades to streamline the store's operations and improve the customer experience. Additionally, I led the development and deployment of digital tools to enhance the store's online presence and attract more customers.My contributions as the owner and CTO played a critical role in improving NeoMart's overall efficiency and customer satisfaction, which was a rewarding experience for me.",
-                //     address: "Cebu, Philippines",
-                //     stack: "Laravel, NuxtJS, MySQL",
-                // },
                 {
                     logo: null,
                     title: "Senior Software Engineer",
@@ -86,9 +98,9 @@ export default {
                     address: "Sydney, Australia",
                     stack: "Laravel, VueJS, NextJS, MySQL, Elastic Beanstalk",
                     list: [
-                        'Developed and enhanced VueJS components used within the system.',
-                        'Review Pull-Requests ensuring code submitted meets company standards.',
-                        'Maintined AWS EB services.',
+                        'Developed and enhanced Vue.js components used within the system.',
+                        'Reviewed pull requests to ensure code met company standards.',
+                        'Maintained AWS Elastic Beanstalk services.',
                     ],
                 },
                 {
@@ -102,7 +114,7 @@ export default {
                     address: "Online",
                     stack: "Wordpress, CodeIgniter, Laravel, VueJS, NodeJS",
                     list: [
-                        'Developed various web based applications for Upwork clients.'
+                        'Developed various web-based applications for clients on Upwork.',
                     ],
                 },
                 {
@@ -116,9 +128,9 @@ export default {
                     address: "San Diego, California",
                     stack: "Wordpress, CodeIgniter, NodeJS, React, VueJS",
                     list: [
-                        'Design and develop templates used for auto-generated website produced by the company\'s web app.',
-                        'Was also the webmaster of the company ensuring templates generated conform to the latest SEO standards.',
-                        'Developed the frontend of a chat bot system where user\'s get to decide the flow of conversation of the company\'s customers or leads.'
+                        'Designed and developed templates for auto-generated websites produced by the company’s web application.',
+                        'Served as webmaster, ensuring all generated templates complied with modern SEO standards.',
+                        'Developed the frontend of a chatbot system, allowing users to define conversation flows for customer engagement.',
                     ]
                 },
                 {
@@ -132,8 +144,8 @@ export default {
                     address: "Montreal, Canada",
                     stack: "CodeIgniter2, VueJS, NodeJS, VueX",
                     list: [
-                        'Responsible for maintaining and enhancing overall app features both backend and frontend, ensuring user\'s smooth experience.',
-                        'Helped migrated the legacy app to NodeJS / VueJS from CodeIgniter2.'
+                        'Maintained and enhanced application features across both backend and frontend, ensuring a smooth user experience.',
+                        'Assisted in migrating the legacy application from CodeIgniter 2 to Node.js and Vue.js.',
                     ]
                 },
                 {
@@ -147,8 +159,8 @@ export default {
                     address: "Sydney, Australia",
                     stack: "Wordpress, jQuery, Magento, Joomla",
                     list: [
-                        'Developed Wordpress theme and plugins.',
-                        'Added features to pre-existing applications of my client such as Magento and Joomla.'
+                        'Developed WordPress themes and plugins.',
+                        'Enhanced existing client applications, including Magento and Joomla.',
                     ]
                 },
                 {
@@ -162,9 +174,9 @@ export default {
                     address: "San Diego, California",
                     stack: "Wordpress, jQuery",
                     list: [
-                        'Developed Wordpress themes and plugins for company clients.',
-                        'Managed and maintained Google services specific for the company\'s SEO efforts for clients.',
-                        'Designed Wordpress themes.'
+                        'Developed WordPress themes and plugins for clients.',
+                        'Managed and maintained Google services for SEO optimization.',
+                        'Designed WordPress themes.',
                     ]
                 },
                 {
@@ -178,9 +190,9 @@ export default {
                     address: "Spain",
                     stack: "Wordpress, jQuery",
                     list: [
-                        'Built custom plugins on-top of the company\'s own Wordpress Event Manager plugin.',
-                        'Integrated Google maps into the Event Manager plugin.',
-                        'Developed a variety of bespoke Google Maps themes tailored to accommodate versatile customization options within the Event Manager plugin. These uniquely crafted themes empower users to seamlessly personalize their maps, enhancing the overall user experience and ensuring a visually cohesive integration with the Event Manager plugin.'
+                        'Built custom plugins on top of the company’s WordPress Event Manager plugin.',
+                        'Integrated Google Maps into the Event Manager plugin.',
+                        'Developed customizable Google Maps themes to enhance user experience and flexibility within the plugin.',
                     ]
                 },
                 {
@@ -193,7 +205,7 @@ export default {
                         "As a Microsoft Answer Desk Online Technician, I provided online technical support for a variety of Microsoft Windows and Office issues. This included troubleshooting and resolving technical issues related to software installation, configuration, and operation, as well as virus removal. By leveraging my expertise in Microsoft technologies, I was able to provide high-quality support to customers, helping them to resolve issues and get the most out of their software. My contributions ultimately helped to drive customer satisfaction and loyalty, making it a fulfilling and rewarding experience for me as a technician.",
                     address: "Cebu, Philippines",
                     list: [
-                        'Provided tech support for Microsoft Windows customers.'
+                        'Provided technical support for Microsoft Windows customers.',
                     ],
                 },
                 {
@@ -206,8 +218,8 @@ export default {
                         "As a lead graphics designer and officer-in-charge at the Link department, I was responsible for managing marketing media and the student ID processing system. By leveraging my expertise in graphic design, I was able to create visually compelling marketing materials that effectively conveyed the department's message and improved engagement with our target audience. Additionally, I streamlined the student ID processing system, ensuring all student IDs were processed accurately and efficiently. Through my contributions, I was able to enhance the overall effectiveness of the Link department, resulting in a successful and fulfilling experience for me as a graphics designer and office in charge.",
                     address: "Cebu, Philippines",
                     list: [
-                        'Designed various marketing materials for the university\'s marketing efforts.',
-                        'Managed student\'s ID processing system.'
+                        'Designed various marketing materials for the university’s campaigns.',
+                        'Managed the student ID processing system.',
                     ]
                 },
             ],
@@ -221,4 +233,8 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+.experience-section {
+    padding-top: 100px;
+}
+</style>

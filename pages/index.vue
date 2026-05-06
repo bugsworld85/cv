@@ -37,7 +37,7 @@ export default {
             fullName: "Jovanni Ray Garcia",
             alias: "Jovanni G",
             nickname: "Bugs",
-            role: "Full-Stack Web Developer",
+            role: "Senior Software Engineer",
             email: "bugsworld85@gmail.com",
             phone: "(063)-384-4181",
             dateOfBirth: "April 28, 1985",

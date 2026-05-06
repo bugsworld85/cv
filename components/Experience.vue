@@ -68,4 +68,7 @@ h5.company {
         color: #bbb;
     }
 }
+.exprience {
+    margin-bottom: 50px;
+}
 </style>
