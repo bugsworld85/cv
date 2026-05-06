@@ -8,8 +8,11 @@
                     </div>
                 </div>
                 <div class="col-md-8">
-                    <Experience v-for="(experience, i) in experiences" :key="`exp-${experience.company}`"
-                        :experience="experience" :showDivider="!isLast(i)" />
+                    <Experience 
+                        v-for="(experience, i) in experiences" 
+                        :key="`exp-${experience.company}`"
+                        :experience="experience" :showDivider="!isLast(i)" 
+                    />
                 </div>
             </div>
         </div>
@@ -29,10 +32,32 @@ export default {
             experiences: [
                 {
                     logo: null,
+                    title: 'Lead Senior Software / DevOps Engineer',
+                    company: 'Drivers1st / Right Turn Recruiting, Inc.',
+                    from: "2023-06",
+                    to: "present",
+                    address: 'Minnesota, US',
+                    stack: "Laravel, NextJS, Redis, MySQL, MongoDB, Typescript, Wordpress, Docker, React Native, Expo, FastAPI, Redux, Laravel Inertia, VueJS",
+                    list: [
+                        'Implemented SSO in preparation for the mobile application’s authentication system.',
+                        'Developed and maintained the Drivers1st mobile application.',
+                        'Lead a small development team consisting of two developers, a designer, and a QA engineer.',
+                        'Designed and architected the database structure to optimize query performance across RESTful API endpoints.',
+                        'Migrated a legacy WordPress application to Laravel and Next.js, contributing to company growth and the upcoming launch of Drivers1st’s first mobile application on iOS and Android.',
+                        'Developed and maintained the Drivers1st portal for carriers.',
+                        'Developed and maintained the Drivers1st WordPress website.',
+                        'Built and maintained the Drivers1st driver portal for job applications across multiple carriers.',
+                        'Maintained AWS service costs and instances.',
+                        'Implemented CI/CD pipelines.',
+                        'Managed GitHub repositories and integrations.',
+                    ],
+                },
+                {
+                    logo: null,
                     title: 'Senior Software Engineer',
                     company: 'Storman',
                     from: "2024-01",
-                    to: "present",
+                    to: "2026-03",
                     address: 'Fortitude Valley, QLD',
                     stack: "Laravel, VueJS, MySQL, Javascript, jQuery, Bootstrap",
                     list: [
@@ -44,27 +69,6 @@ export default {
                         'Enabled company-level inventory management to enhance operational efficiency.',
                         'Designed and implemented a POS system supporting both regular and bundled items.',
                         'Contributed to the implementation of features such as POS, audit logs, and console commands.',
-                    ],
-                },
-                {
-                    logo: null,
-                    title: '[Part-time] Senior Software Engineer',
-                    company: 'Drivers1st / Right Turn Recruiting, Inc.',
-                    from: "2023-06",
-                    to: "present",
-                    address: 'Minnesota, US',
-                    stack: "Laravel, NextJS, Redis, MySQL, MongoDB, Typescript, Wordpress, Docker, React Native, Expo, FastAPI, Redux, Laravel Inertia, VueJS",
-                    list: [
-                        'Implemented SSO in preparation for the mobile application’s authentication system.',
-                        'Developed and maintained the Drivers1st mobile application.',
-                        'Led a small development team consisting of two developers, a designer, and a QA engineer.',
-                        'Designed and architected the database structure to optimize query performance across RESTful API endpoints.',
-                        'Migrated a legacy WordPress application to Laravel and Next.js, contributing to company growth and the upcoming launch of Drivers1st’s first mobile application on iOS and Android.',
-                        'Developed and maintained the Drivers1st portal for carriers.',
-                        'Developed and maintained the Drivers1st WordPress website.',
-                        'Built and maintained the Drivers1st driver portal for job applications across multiple carriers.',
-                        'Implemented CI/CD pipelines.',
-                        'Managed GitHub repositories and integrations.',
                     ],
                 },
                 {
