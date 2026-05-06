@@ -57,10 +57,11 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
+    publicPath: '/_nuxt/'
   },
   target: 'static',
   router: {
     // Replace 'your-repo-name' with your actual GitHub repository name
-    base: '/bugsworld85'
+    base: process.env.NODE_ENV === 'production' ? '/cv/' : '/'
   }
 }

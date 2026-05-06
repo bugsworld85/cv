@@ -35,12 +35,6 @@
                         <p><span>Nick Name:</span> {{ $parent.nickname }}</p>
                         <p><span>Email:</span> <a :href="`mailto:${$parent.email}`" target="_blank">{{ $parent.email }}</a>
                         </p>
-                        <!-- <p><span>Phone:</span> {{ $parent.phone }}</p>
-                        <p>
-                            <span>Date of Birth:</span>
-                            {{ $parent.dateOfBirth }}
-                        </p> -->
-                        <!-- <p><span>Address:</span> {{ $parent.address }}</p> -->
                     </address>
                 </div>
             </div>
@@ -52,9 +46,9 @@
 import moment from 'moment';
 export default {
     name: "about",
-    data() {
-        return {
-            yearsInTheIndustry: moment().year() - 2014
+    computed: {
+        yearsInTheIndustry() {
+            return moment().year() - 2014
         }
     },
 };
