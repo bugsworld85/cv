@@ -18,13 +18,13 @@ export default {
     ],
     script: [
       { type: 'text/javascript', src: 'https://kit.fontawesome.com/dadcfe102a.js', defer: true, crossorigin: 'anonymous' },
-      { type: 'text/javascript', src: '/js/jquery.min.js', defer: true },
-      { type: 'text/javascript', src: '/js/popper.min.js', defer: true },
-      { type: 'text/javascript', src: '/js/waypoints.min.js', defer: true },
-      { type: 'text/javascript', src: '/js/counterup.min.js', defer: true },
-      { type: 'text/javascript', src: '/js/inview.min.js', defer: true },
-      { type: 'text/javascript', src: '/js/easypiechart.js', defer: true },
-      { type: 'text/javascript', src: '/js/magnific-popup.min.js', defer: true },
+      { type: 'text/javascript', src: 'js/jquery.min.js', defer: true },
+      { type: 'text/javascript', src: 'js/popper.min.js', defer: true },
+      { type: 'text/javascript', src: 'js/waypoints.min.js', defer: true },
+      { type: 'text/javascript', src: 'js/counterup.min.js', defer: true },
+      { type: 'text/javascript', src: 'js/inview.min.js', defer: true },
+      { type: 'text/javascript', src: 'js/easypiechart.js', defer: true },
+      { type: 'text/javascript', src: 'js/magnific-popup.min.js', defer: true },
     ]
   },
 
@@ -61,7 +61,7 @@ export default {
   },
   target: 'static',
   router: {
-    // Replace 'your-repo-name' with your actual GitHub repository name
+    // Replace 'your-repo-name' with your actual GitHub repository name`
     base: process.env.NODE_ENV === 'production' ? '/cv/' : '/'
   }
 }

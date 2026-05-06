@@ -1,7 +1,7 @@
 <template>
     <div class="flex">
         <div class="logo-container" v-if="skill.logo">
-            <img :src="skill.logo" :alt="skill.title" />
+            <img :src="logo" :alt="skill.title" />
         </div>
         <div>
             <label>{{ skill.title }}</label>
@@ -27,6 +27,11 @@
 export default {
     name: "skill",
     props: ["skill"],
+    computed: {
+        logo() {
+            return `${this.skill.logo}`;
+        }
+    },
 };
 </script>
 
