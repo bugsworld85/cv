@@ -12,7 +12,7 @@
                         <li v-for="profile in profiles" :key="profile.title">
                             <span class="profile-icon" v-if="profile.icon">
                                 <a :href="profile.link">
-                                    <img :src="profile.icon" :alt="profile.title" />
+                                    <img :src="icon(profile.icon)" :alt="profile.title" />
                                 </a>
                             </span>
                             <a :href="profile.link">{{ profile.link }}</a>
@@ -57,6 +57,11 @@ export default {
                 },
             ],
         };
+    },
+    methods: {
+        icon(icon) {
+            return process.env.APP_ENV === 'production' ? `/cv/${icon}` : icon;
+        }
     },
 };
 </script>

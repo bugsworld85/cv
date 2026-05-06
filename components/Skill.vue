@@ -1,6 +1,6 @@
 <template>
     <div class="flex">
-        <div class="logo-container" v-if="skill.logo">
+        <div class="logo-container" v-if="logo">
             <img :src="logo" :alt="skill.title" />
         </div>
         <div>
@@ -29,7 +29,10 @@ export default {
     props: ["skill"],
     computed: {
         logo() {
-            return `${this.skill.logo}`;
+            if (this.skill.logo) {
+                return process.env.APP_ENV === 'production' ? `${this.skill.logo}` : this.skill.logo;
+            }
+            return null;
         }
     },
 };

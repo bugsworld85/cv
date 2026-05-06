@@ -49,7 +49,7 @@ export default {
     computed: {
         yearsInTheIndustry() {
             return moment().year() - 2014
-        }
+        },
     },
 };
 </script>

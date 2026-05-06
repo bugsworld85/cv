@@ -1,6 +1,6 @@
 <template>
     <div id="home-banner">
-        <div class="container">
+        <div class="container" :style="{ backgroundImage: `url(${backgroundImage})` }">
             <div class="row">
                 <div class="col-sm-9">
                     <div class="banner-content">
@@ -19,6 +19,11 @@
 <script>
 export default {
     name: "banner",
+    computed: {
+        backgroundImage() {
+            return process.env.APP_ENV === 'production' ? `/cv/images/turtle-neck.png` : '/images/turtle-neck.png';
+        },
+    },
 };
 </script>
 
