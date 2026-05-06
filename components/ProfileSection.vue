@@ -60,7 +60,7 @@ export default {
     },
     methods: {
         icon(icon) {
-            return process.env.APP_ENV === 'production' ? `/cv/${icon}` : icon;
+            return process.env.NODE_ENV === 'production' ? `/cv/${icon}` : icon;
         }
     },
 };

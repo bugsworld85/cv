@@ -21,7 +21,7 @@ export default {
     name: "banner",
     computed: {
         backgroundImage() {
-            return process.env.APP_ENV === 'production' ? `/cv/images/turtle-neck.png` : '/images/turtle-neck.png';
+            return process.env.NODE_ENV === 'production' ? `/cv/images/turtle-neck.png` : '/images/turtle-neck.png';
         },
     },
 };

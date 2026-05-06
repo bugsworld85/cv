@@ -30,7 +30,7 @@ export default {
     computed: {
         logo() {
             if (this.skill.logo) {
-                return process.env.APP_ENV === 'production' ? `${this.skill.logo}` : this.skill.logo;
+                return process.env.NODE_ENV === 'production' ? `/cv/${this.skill.logo}` : this.skill.logo;
             }
             return null;
         }
